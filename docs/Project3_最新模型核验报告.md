@@ -38,9 +38,9 @@
 
 KiCad DRC 保存结果为 0 违规、0 未连接，无违规排除；普通铜退边 0.5 mm，仅 J1 厂家端接焊盘到板边。四层 Gerber、10 个 0.3 mm 贯通孔、SMA 官方封装及模型 RF 铜形配准均有核对数据。文件入口见 [加工要求](../output/Project3_fabrication_R3/FABRICATION_NOTES.md)。
 
-当前原生工程与制造说明指定沉银；OSP 属待确认工艺选项，不能作为当前已验证条件。板厂须确认 PP1 厚度/材料、铜厚、总厚及 SMA 卡板处公差、表面处理和板边露铜。`fabrication_data_ready=true`、`first_article_design_ready=true`、`manufacturing_release=false`、`series_production_release=false`。
+首板采购采用无铅 OSP；HFSS 使用铜导体，未单独建立表面处理膜层，OSP 实物性能待首板测量。板厂须确认 PP1 厚度/材料、铜厚、总厚及 SMA 卡板处公差、表面处理和板边露铜。`fabrication_data_ready=true`、`first_article_design_ready=true`、`manufacturing_release=false`、`series_production_release=false`。
 
-PCB 订购参数和 BOM 已提供；连接器为 Würth 60312202114509，每板 1 个。嘉立创商城商品编号、库存、价格和可代购状态尚未核实，不以通用 SMA 型号替代封装匹配确认。加工后必须在 SMA 外接口说明 VNA 校准面，并测量匹配、方向图、极化和旁瓣。
+PCB 订购参数和 BOM 已提供；连接器为 Würth 60312202114509，每板 1 个。立创商城编号为 [C5514713](https://item.szlcsc.com/6430867.html)，2026-11-03 页面含税单价 ¥27.18、现货 0、需订货；6 只货款 ¥163.08，实际交期须确认。[购买清单与网页图解](../output/Project3_fabrication_R3/立创商城购买清单.md)列出下单配置。不以通用 SMA 型号替代封装匹配确认。加工后必须在 SMA 外接口说明 VNA 校准面，并测量匹配、方向图、极化和旁瓣。
 
 ## 数据入口
 

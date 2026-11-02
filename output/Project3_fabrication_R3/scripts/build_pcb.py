@@ -162,7 +162,7 @@ stack='''(stackup
   (layer "In2.Cu" (type "copper") (thickness 0.0152))
   (layer "dielectric 3" (type "prepreg") (thickness 0.2104) (material "FR4 7628x1") (epsilon_r 4.4) (loss_tangent 0.02))
   (layer "B.Cu" (type "copper") (thickness 0.035))
-  (copper_finish "Immersion silver") (dielectric_constraints yes))'''
+  (copper_finish "OSP") (dielectric_constraints yes))'''
 txt=path.read_text(encoding='utf8').replace('\t(setup\n','\t(setup\n'+stack+'\n',1)
 path.write_text(txt,encoding='utf8')
 reopened=pcb.LoadBoard(str(path))

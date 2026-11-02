@@ -19,7 +19,7 @@
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
-    "Finish": "Immersion silver",
+    "Finish": "OSP",
     "ImpedanceControlled": true
   },
   "DesignRules": [

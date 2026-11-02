@@ -74,7 +74,7 @@
 				(type "copper")
 				(thickness 0.035)
 			)
-			(copper_finish "Immersion silver")
+			(copper_finish "OSP")
 			(dielectric_constraints yes)
 		)
 		(pad_to_mask_clearance 0)

@@ -8,6 +8,7 @@
 | [目标与要求](docs/Project3_目标与要求.md) | 课件指标与验收口径 |
 | [最新模型核验报告](docs/Project3_最新模型核验报告.md) | R3 当前结果、限制与待完成项 |
 | [R3 交付](output/Project3_fabrication_R3/README_制造状态.md) | HFSS、PCB、Gerber、BOM、叠层与装配资料 |
+| [购买清单与网页图解](output/Project3_fabrication_R3/立创商城购买清单.md) | Gerber 导入、PCB 工艺选项、SMA 订货及关键网页截图 |
 | [复现说明](output/Project3_fabrication_R3/scripts/REPRODUCE.md) | PCB 构建、HFSS 求解和结果分析 |
 | [HFSS 环境](hfss_agent/README.md) | 本机 AEDT/PyAEDT 配置与链路自检 |
 
