@@ -1,0 +1,92 @@
+{
+  "5.725": [
+    {
+      "theta_deg": 14.0,
+      "phi_deg": 265.0,
+      "gain_dbi": -3.7210464116078774,
+      "below_global_db": 0.0,
+      "in_connected_half_power_main_region": true
+    },
+    {
+      "theta_deg": 46.0,
+      "phi_deg": 90.0,
+      "gain_dbi": -6.619081778662355,
+      "below_global_db": 2.898035367054477,
+      "in_connected_half_power_main_region": false
+    },
+    {
+      "theta_deg": 172.0,
+      "phi_deg": 290.0,
+      "gain_dbi": -18.806947212323138,
+      "below_global_db": 15.08590080071526,
+      "in_connected_half_power_main_region": false
+    }
+  ],
+  "5.800": [
+    {
+      "theta_deg": 6.0,
+      "phi_deg": 260.0,
+      "gain_dbi": -2.635566978630404,
+      "below_global_db": 0.0,
+      "in_connected_half_power_main_region": true
+    },
+    {
+      "theta_deg": 84.0,
+      "phi_deg": 150.0,
+      "gain_dbi": -18.85467724212711,
+      "below_global_db": 16.219110263496706,
+      "in_connected_half_power_main_region": false
+    },
+    {
+      "theta_deg": 86.0,
+      "phi_deg": 29.999999999999996,
+      "gain_dbi": -18.901687126901376,
+      "below_global_db": 16.26612014827097,
+      "in_connected_half_power_main_region": false
+    },
+    {
+      "theta_deg": 172.0,
+      "phi_deg": 290.0,
+      "gain_dbi": -19.719984643971234,
+      "below_global_db": 17.08441766534083,
+      "in_connected_half_power_main_region": false
+    }
+  ],
+  "5.875": [
+    {
+      "theta_deg": 2.0,
+      "phi_deg": 260.0,
+      "gain_dbi": -2.2899080168567214,
+      "below_global_db": 0.0,
+      "in_connected_half_power_main_region": true
+    },
+    {
+      "theta_deg": 132.0,
+      "phi_deg": 230.0,
+      "gain_dbi": -18.387558520634638,
+      "below_global_db": 16.097650503777917,
+      "in_connected_half_power_main_region": false
+    },
+    {
+      "theta_deg": 132.0,
+      "phi_deg": 305.0,
+      "gain_dbi": -18.393009070414063,
+      "below_global_db": 16.103101053557342,
+      "in_connected_half_power_main_region": false
+    },
+    {
+      "theta_deg": 86.0,
+      "phi_deg": 150.0,
+      "gain_dbi": -20.56095231085369,
+      "below_global_db": 18.27104429399697,
+      "in_connected_half_power_main_region": false
+    },
+    {
+      "theta_deg": 88.0,
+      "phi_deg": 29.999999999999996,
+      "gain_dbi": -20.655549841915608,
+      "below_global_db": 18.365641825058887,
+      "in_connected_half_power_main_region": false
+    }
+  ]
+}

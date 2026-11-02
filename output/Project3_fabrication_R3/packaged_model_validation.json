@@ -1,0 +1,24 @@
+{
+  "solution_type": "Terminal",
+  "setups": [
+    "Setup58"
+  ],
+  "sweeps": [
+    "Sweep",
+    "DiscreteCheck"
+  ],
+  "excitations": [
+    "SMA_signalpin_T1"
+  ],
+  "components": [
+    "SMA"
+  ],
+  "sma_parts": [
+    "signalpin",
+    "WavePort",
+    "insulator",
+    "shielding"
+  ],
+  "native_design_validation_passed": true,
+  "passed": true
+}

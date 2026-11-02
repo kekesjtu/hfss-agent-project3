@@ -1,0 +1,19 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
+*.ps1 text eol=crlf
+*.csv text eol=lf
+*.aedt binary
+*.a3dcomp binary
+*.pdf binary
+*.png binary
+*.zip binary
+*.step binary
+*.stp binary
+# Preserve manufacturing exports byte for byte alongside the upload ZIP.
+output/**/Gerber/* -text -whitespace
+output/**/HFSS_full_SMA/*.txt -text -whitespace
+*.s1p -text -whitespace

@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "official_land_count": 5,
+  "maximum_coordinate_difference_mm": 0.0,
+  "actual_lands": [
+    {
+      "number": "1",
+      "layer": "F.Cu",
+      "bounds_mm": [
+        27.55,
+        58.83,
+        28.45,
+        64.43
+      ]
+    },
+    {
+      "number": "2",
+      "layer": "B.Cu",
+      "bounds_mm": [
+        23.05,
+        58.83,
+        24.7,
+        64.43
+      ]
+    },
+    {
+      "number": "2",
+      "layer": "B.Cu",
+      "bounds_mm": [
+        31.3,
+        58.83,
+        32.95,
+        64.43
+      ]
+    },
+    {
+      "number": "2",
+      "layer": "F.Cu",
+      "bounds_mm": [
+        23.05,
+        58.83,
+        24.7,
+        64.43
+      ]
+    },
+    {
+      "number": "2",
+      "layer": "F.Cu",
+      "bounds_mm": [
+        31.3,
+        58.83,
+        32.95,
+        64.43
+      ]
+    }
+  ],
+  "official_lands": [
+    {
+      "number": "1",
+      "layer": "F.Cu",
+      "bounds_mm": [
+        27.55,
+        58.83,
+        28.45,
+        64.43
+      ]
+    },
+    {
+      "number": "2",
+      "layer": "B.Cu",
+      "bounds_mm": [
+        23.05,
+        58.83,
+        24.7,
+        64.43
+      ]
+    },
+    {
+      "number": "2",
+      "layer": "B.Cu",
+      "bounds_mm": [
+        31.3,
+        58.83,
+        32.95,
+        64.43
+      ]
+    },
+    {
+      "number": "2",
+      "layer": "F.Cu",
+      "bounds_mm": [
+        23.05,
+        58.83,
+        24.7,
+        64.43
+      ]
+    },
+    {
+      "number": "2",
+      "layer": "F.Cu",
+      "bounds_mm": [
+        31.3,
+        58.83,
+        32.95,
+        64.43
+      ]
+    }
+  ],
+  "board_edge_datum_offset_mm": 2.8,
+  "model_offset_xyz_mm": [
+    0,
+    2.8,
+    0
+  ],
+  "model_rotation_xyz_deg": [
+    0,
+    0,
+    0
+  ],
+  "source": "https://www.we-online.com/components/products/download/KiCad_WR-SMA%20%28rev26a%29.zip",
+  "official_footprint_sha256": "bd96f1871051c11acb57a01ba6dceb7b1859e512fbe25a04fe06cd8b9da47daf",
+  "model_sha256": "25052230c2cc76ff975f87fb068e9698e336841eda7afe363e52ebdb3b36f2d7",
+  "assembly_step_contains_j1": true
+}

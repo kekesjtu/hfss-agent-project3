@@ -1,0 +1,41 @@
+# Local interpreters, environments and package caches
+/.python/
+/.venv/
+/.uv-cache/
+
+# Local working data and archived material
+/tmp/
+/achive/
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# AEDT generated caches and locks; native projects remain tracked
+*.aedtresults/
+*.pyaedt/
+*.aedt.lock
+*.aedt.auto
+*.aedt.bak
+*.aedt.tmp
+*.asol
+*.log
+
+# KiCad local state and automatic backups
+*.kicad_prl
+*-backups/
+*.lck
+~$*
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key

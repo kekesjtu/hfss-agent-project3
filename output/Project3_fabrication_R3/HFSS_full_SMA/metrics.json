@@ -1,0 +1,275 @@
+{
+  "run": "output/Project3_fabrication_R3/HFSS_full_SMA",
+  "parameters": {
+    "kind": "array",
+    "h": 0.2104,
+    "epsr": 4.4,
+    "tand": 0.02,
+    "f0_ghz": 5.8,
+    "spacing": 25.844177413793105,
+    "patch_w": 24.0,
+    "patch_l": 12.1,
+    "inset": 3.3,
+    "w50": 0.4,
+    "w70": 0.5,
+    "gap": 0.25,
+    "wbranch": 0.21,
+    "winput": 3.0,
+    "board_w": 56.0,
+    "board_l": 64.43,
+    "y_bottom": -38.345,
+    "tee": -24.085,
+    "trans": -10.084999999999997,
+    "slot_l": 4.298,
+    "slot_span": 6.686,
+    "slot_y": 4.776,
+    "slot_w": 0.3,
+    "margin": 20.0,
+    "copper": "shell",
+    "basis_order": 2,
+    "symmetry_h": false,
+    "screening_scope": "Official encrypted SMA, physical 4-layer copper/FR4, hollow plated through vias, approximate rectangular solder joints",
+    "solder_top_gap_mm": 0.05,
+    "solder_signal_gap_mm": 0.43,
+    "solder_material": "tin",
+    "manufacturer_component": "Wurth 60312202114509 rev25a / terminal",
+    "connector_native_xform": "rotate X +90deg, translate [0,y_bottom,h+.035+.43]",
+    "input_reference_from_board_edge_mm": -8.89,
+    "input_matching_sections_mm": [
+      {
+        "position": "connector_side",
+        "width": 1.276,
+        "length": 5.266
+      },
+      {
+        "position": "antenna_side",
+        "width": 3.0,
+        "length": 3.394
+      }
+    ],
+    "via_polygon_sides": 16
+  },
+  "success": true,
+  "two_sided_shell_copper": false,
+  "converged": true,
+  "delta_s": 0.010835,
+  "target_delta_s": 0.015,
+  "target_consecutive_passes": 2,
+  "current_consecutive_passes": 2,
+  "strict_convergence_met": true,
+  "mesh_elements": 60221,
+  "minimum_s11_db": -15.912643553124434,
+  "resonance_ghz": 5.702,
+  "s11_58_db": -11.244736594636798,
+  "target_150mhz_worst_s11_db": -11.137770259745876,
+  "covers_centered_150mhz_window": true,
+  "bands_10db": [
+    {
+      "low_ghz": 5.631078740862941,
+      "high_ghz": 5.984629128343549,
+      "bandwidth_mhz": 353.55038748060787,
+      "contains_58": true,
+      "edge_limited": false
+    }
+  ],
+  "discrete_verification": {
+    "points": 13,
+    "centered_window_worst_s11_db": -11.177873175241366,
+    "centered_window_all_samples_below_minus10": true,
+    "max_complex_s_difference": 0.00019475541045143818,
+    "max_db_difference": 0.0040124683567714925
+  },
+  "farfield_cuts": [
+    {
+      "phi_deg": 0,
+      "peak_theta_deg": 0.0,
+      "peak_realized_gain_dbi": -2.7977289064110695,
+      "broadside_gain_dbi": -2.7977289064110695,
+      "peak_directivity_dbi": 9.220159997673123,
+      "radiation_efficiency_percent": 6.793711615119154,
+      "broadside_linear_pol_discrimination_db": 37.50770822410221,
+      "front_sidelobe_suppression_db": null,
+      "secondary_lobe_suppression_including_back_db": 17.34898787221987,
+      "front_sidelobe_status": "no_secondary_local_maximum"
+    },
+    {
+      "phi_deg": 90,
+      "peak_theta_deg": -6.0,
+      "peak_realized_gain_dbi": -2.638121202574343,
+      "broadside_gain_dbi": -2.7977289064110695,
+      "peak_directivity_dbi": 9.379767701509852,
+      "radiation_efficiency_percent": 6.793711615119151,
+      "broadside_linear_pol_discrimination_db": 37.50770822410223,
+      "front_sidelobe_suppression_db": null,
+      "secondary_lobe_suppression_including_back_db": 17.119944374104904,
+      "front_sidelobe_status": "no_secondary_local_maximum"
+    }
+  ],
+  "antenna_58": {
+    "AcceptedPower": 0.00859017348543834,
+    "IncidentPower": 0.00928748088442076,
+    "PeakDirectivity": 8.67425514867267,
+    "PeakGain": 0.589303879560446,
+    "PeakRealizedGain": 0.545058732724575,
+    "RadiatedPower": 0.00058359161383911,
+    "RadiationEfficiency": 0.0679371161511915,
+    "TotalEfficiency": 0.0628363730813221
+  },
+  "full_sphere_peak": {
+    "theta_deg": 6.0,
+    "phi_deg": 260.0,
+    "realized_gain_dbi": -2.6355669786304023
+  },
+  "full_sphere_checks": {
+    "angular_grid_deg": [
+      1.9999999999999716,
+      4.999999999999972
+    ],
+    "broadside_linear_component_difference_db": 37.50770822410221,
+    "broadside_below_peak_db": 0.1621619277806663,
+    "maximum_rear_hemisphere_below_peak_db": 10.730370267817198,
+    "local_peak_list": [
+      {
+        "theta_deg": 6.0,
+        "phi_deg": 260.0,
+        "gain_dbi": -2.6355669786304023,
+        "below_global_db": 0.0
+      },
+      {
+        "theta_deg": 84.0,
+        "phi_deg": 150.0,
+        "gain_dbi": -18.85467724212711,
+        "below_global_db": 16.21911026349671
+      },
+      {
+        "theta_deg": 86.0,
+        "phi_deg": 29.999999999999996,
+        "gain_dbi": -18.901687126901376,
+        "below_global_db": 16.26612014827097
+      },
+      {
+        "theta_deg": 172.0,
+        "phi_deg": 290.0,
+        "gain_dbi": -19.719984643971234,
+        "below_global_db": 17.08441766534083
+      }
+    ],
+    "secondary_peak_suppression_db": 16.21911026349671
+  },
+  "band_field_checks": {
+    "5.725": {
+      "angular_grid_deg": [
+        1.9999999999999716,
+        4.999999999999972
+      ],
+      "broadside_linear_component_difference_db": 41.97190047430766,
+      "broadside_below_peak_db": 0.8900381378843414,
+      "maximum_rear_hemisphere_below_peak_db": 8.4267890199651,
+      "local_peak_list": [
+        {
+          "theta_deg": 14.0,
+          "phi_deg": 265.0,
+          "gain_dbi": -3.7210464116078774,
+          "below_global_db": 0.0
+        },
+        {
+          "theta_deg": 46.0,
+          "phi_deg": 90.0,
+          "gain_dbi": -6.619081778662355,
+          "below_global_db": 2.898035367054477
+        },
+        {
+          "theta_deg": 172.0,
+          "phi_deg": 290.0,
+          "gain_dbi": -18.806947212323138,
+          "below_global_db": 15.08590080071526
+        }
+      ],
+      "secondary_peak_suppression_db": 2.898035367054477
+    },
+    "5.800": {
+      "angular_grid_deg": [
+        1.9999999999999716,
+        4.999999999999972
+      ],
+      "broadside_linear_component_difference_db": 37.50770822410221,
+      "broadside_below_peak_db": 0.16216192778066452,
+      "maximum_rear_hemisphere_below_peak_db": 10.730370267817195,
+      "local_peak_list": [
+        {
+          "theta_deg": 6.0,
+          "phi_deg": 260.0,
+          "gain_dbi": -2.635566978630404,
+          "below_global_db": 0.0
+        },
+        {
+          "theta_deg": 84.0,
+          "phi_deg": 150.0,
+          "gain_dbi": -18.85467724212711,
+          "below_global_db": 16.219110263496706
+        },
+        {
+          "theta_deg": 86.0,
+          "phi_deg": 29.999999999999996,
+          "gain_dbi": -18.901687126901376,
+          "below_global_db": 16.26612014827097
+        },
+        {
+          "theta_deg": 172.0,
+          "phi_deg": 290.0,
+          "gain_dbi": -19.719984643971234,
+          "below_global_db": 17.08441766534083
+        }
+      ],
+      "secondary_peak_suppression_db": 16.219110263496706
+    },
+    "5.875": {
+      "angular_grid_deg": [
+        1.9999999999999716,
+        4.999999999999972
+      ],
+      "broadside_linear_component_difference_db": 39.33813324340338,
+      "broadside_below_peak_db": 0.004104050678111371,
+      "maximum_rear_hemisphere_below_peak_db": 13.1026499998722,
+      "local_peak_list": [
+        {
+          "theta_deg": 2.0,
+          "phi_deg": 260.0,
+          "gain_dbi": -2.2899080168567214,
+          "below_global_db": 0.0
+        },
+        {
+          "theta_deg": 132.0,
+          "phi_deg": 230.0,
+          "gain_dbi": -18.387558520634638,
+          "below_global_db": 16.097650503777917
+        },
+        {
+          "theta_deg": 132.0,
+          "phi_deg": 305.0,
+          "gain_dbi": -18.393009070414063,
+          "below_global_db": 16.103101053557342
+        },
+        {
+          "theta_deg": 86.0,
+          "phi_deg": 150.0,
+          "gain_dbi": -20.56095231085369,
+          "below_global_db": 18.27104429399697
+        },
+        {
+          "theta_deg": 88.0,
+          "phi_deg": 29.999999999999996,
+          "gain_dbi": -20.655549841915608,
+          "below_global_db": 18.365641825058887
+        }
+      ],
+      "secondary_peak_suppression_db": 16.097650503777917
+    }
+  },
+  "power_balance_check": {
+    "expected_accepted_power_from_s11": 0.008590173485438333,
+    "accepted_power_difference": 6.938893903907228e-18,
+    "radiated_power_not_above_accepted": true,
+    "total_efficiency_difference": 1.3877787807814457e-17
+  }
+}

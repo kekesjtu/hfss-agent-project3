@@ -1,0 +1,209 @@
+{
+  "parameters": {
+    "kind": "array",
+    "h": 0.2104,
+    "epsr": 4.4,
+    "tand": 0.02,
+    "f0_ghz": 5.8,
+    "spacing": 25.844177413793105,
+    "patch_w": 24.0,
+    "patch_l": 12.1,
+    "inset": 3.3,
+    "w50": 0.4,
+    "w70": 0.5,
+    "gap": 0.25,
+    "wbranch": 0.21,
+    "winput": 3.0,
+    "board_w": 56.0,
+    "board_l": 64.43,
+    "y_bottom": -38.345,
+    "tee": -24.085,
+    "trans": -10.084999999999997,
+    "slot_l": 4.298,
+    "slot_span": 6.686,
+    "slot_y": 4.776,
+    "slot_w": 0.3,
+    "margin": 20.0,
+    "copper": "shell",
+    "basis_order": 2,
+    "symmetry_h": false,
+    "screening_scope": "Official encrypted SMA, physical 4-layer copper/FR4, hollow plated through vias, approximate rectangular solder joints",
+    "solder_top_gap_mm": 0.05,
+    "solder_signal_gap_mm": 0.43,
+    "solder_material": "tin",
+    "manufacturer_component": "Wurth 60312202114509 rev25a / terminal",
+    "connector_native_xform": "rotate X +90deg, translate [0,y_bottom,h+.035+.43]",
+    "input_reference_from_board_edge_mm": -8.89,
+    "input_matching_sections_mm": [
+      {
+        "position": "connector_side",
+        "width": 1.276,
+        "length": 5.266
+      },
+      {
+        "position": "antenna_side",
+        "width": 3.0,
+        "length": 3.394
+      }
+    ],
+    "via_polygon_sides": 16
+  },
+  "top": [
+    {
+      "name": "Horizontal70",
+      "x": -13.172088706896552,
+      "y": -24.335,
+      "w": 26.344177413793105,
+      "l": 0.5
+    },
+    {
+      "name": "Transformer70_0",
+      "x": -13.172088706896552,
+      "y": -24.335,
+      "w": 0.5,
+      "l": 14.500000000000004
+    },
+    {
+      "name": "BranchMatch_0",
+      "x": -13.027088706896553,
+      "y": -10.084999999999997,
+      "w": 0.21,
+      "l": 4.044999999999997
+    },
+    {
+      "name": "InsetTongue_0",
+      "x": -13.122088706896552,
+      "y": -6.06,
+      "w": 0.4,
+      "l": 3.3299999999999996
+    },
+    {
+      "name": "Patch_0",
+      "x": -24.922088706896552,
+      "y": -6.05,
+      "w": 24.0,
+      "l": 12.1
+    },
+    {
+      "name": "Transformer70_1",
+      "x": 12.672088706896552,
+      "y": -24.335,
+      "w": 0.5,
+      "l": 14.500000000000004
+    },
+    {
+      "name": "BranchMatch_1",
+      "x": 12.817088706896552,
+      "y": -10.084999999999997,
+      "w": 0.21,
+      "l": 4.044999999999997
+    },
+    {
+      "name": "InsetTongue_1",
+      "x": 12.722088706896553,
+      "y": -6.06,
+      "w": 0.4,
+      "l": 3.3299999999999996
+    },
+    {
+      "name": "Patch_1",
+      "x": 0.9220887068965524,
+      "y": -6.05,
+      "w": 24.0,
+      "l": 12.1
+    },
+    {
+      "name": "J1SignalLand",
+      "x": -0.45,
+      "y": -38.345,
+      "w": 0.9,
+      "l": 5.6
+    },
+    {
+      "name": "LaunchMatchFront",
+      "x": -0.638,
+      "y": -32.754999999999995,
+      "w": 1.276,
+      "l": 5.276
+    },
+    {
+      "name": "LaunchMatchRear",
+      "x": -1.5,
+      "y": -27.479,
+      "w": 3.0,
+      "l": 3.6439999999999984
+    }
+  ],
+  "cuts": [
+    {
+      "name": "InsetGap_0_L",
+      "x": -13.372088706896552,
+      "y": -6.06,
+      "w": 0.25,
+      "l": 3.3099999999999996
+    },
+    {
+      "name": "InsetGap_0_R",
+      "x": -12.722088706896553,
+      "y": -6.06,
+      "w": 0.25,
+      "l": 3.3099999999999996
+    },
+    {
+      "name": "InsetGap_1_L",
+      "x": 12.472088706896553,
+      "y": -6.06,
+      "w": 0.25,
+      "l": 3.3099999999999996
+    },
+    {
+      "name": "InsetGap_1_R",
+      "x": 13.122088706896552,
+      "y": -6.06,
+      "w": 0.25,
+      "l": 3.3099999999999996
+    },
+    {
+      "name": "USlotBase_0",
+      "x": -16.265088706896552,
+      "y": -1.274,
+      "w": 6.686,
+      "l": 0.3
+    },
+    {
+      "name": "USlotLeft_0",
+      "x": -16.265088706896552,
+      "y": -1.274,
+      "w": 0.3,
+      "l": 4.298
+    },
+    {
+      "name": "USlotRight_0",
+      "x": -9.879088706896553,
+      "y": -1.274,
+      "w": 0.3,
+      "l": 4.298
+    },
+    {
+      "name": "USlotBase_1",
+      "x": 9.579088706896552,
+      "y": -1.274,
+      "w": 6.686,
+      "l": 0.3
+    },
+    {
+      "name": "USlotLeft_1",
+      "x": 9.579088706896552,
+      "y": -1.274,
+      "w": 0.3,
+      "l": 4.298
+    },
+    {
+      "name": "USlotRight_1",
+      "x": 15.965088706896552,
+      "y": -1.274,
+      "w": 0.3,
+      "l": 4.298
+    }
+  ]
+}

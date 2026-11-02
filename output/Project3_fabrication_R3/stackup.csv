@@ -1,0 +1,8 @@
+﻿Top to bottom,Material,Thickness_mm,Function
+F.Cu,Copper,0.035,RF array and J1
+PP1,FR4 7628x1,0.2104,Critical RF dielectric
+In1.Cu,Copper,0.0152,RF reference ground
+Core,FR4,1.065,Course core
+In2.Cu,Copper,0.0152,Only via annuli; no plane
+PP2,FR4 7628x1,0.2104,Course lower prepreg
+B.Cu,Copper,0.035,J1 ground lands and via annuli

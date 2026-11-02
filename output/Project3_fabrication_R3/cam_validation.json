@@ -1,0 +1,55 @@
+{
+  "layers": {
+    "F.Cu": {
+      "native_area_mm2": 637.1315641199997,
+      "gerber_area_mm2": 637.1315641200006,
+      "symmetric_difference_mm2": 2.344791028008331e-14,
+      "within_curve_tolerance": true,
+      "islands_before_drilling": 3
+    },
+    "In1.Cu": {
+      "native_area_mm2": 3488.5287580079994,
+      "gerber_area_mm2": 3488.5287580079994,
+      "symmetric_difference_mm2": 0.0,
+      "within_curve_tolerance": true,
+      "islands_before_drilling": 1
+    },
+    "In2.Cu": {
+      "native_area_mm2": 2.7952420821999877,
+      "gerber_area_mm2": 2.8274302480144247,
+      "symmetric_difference_mm2": 0.032188165921370235,
+      "within_curve_tolerance": true,
+      "islands_before_drilling": 10
+    },
+    "B.Cu": {
+      "native_area_mm2": 18.480000000000032,
+      "gerber_area_mm2": 18.48000000000001,
+      "symmetric_difference_mm2": 2.344791028008331e-14,
+      "within_curve_tolerance": true,
+      "islands_before_drilling": 2
+    }
+  },
+  "parser": "gerbonara 1.6.3 + shapely 2.2.0",
+  "curve_tolerance_mm": 0.006,
+  "rf_gerber_native_difference_mm2": 0.0,
+  "drills": {
+    "count": 10,
+    "diameter_mm": 0.3,
+    "positions_match_native": true,
+    "parser_warnings": [
+      "output/Project3_fabrication_R3/Gerber/Project3_array_R3.drl:12 \"G90\": G90 header statement found after end of header"
+    ]
+  },
+  "l2_ground_bounds_mm": [
+    0.5005,
+    0.5005,
+    55.4995,
+    63.9295
+  ],
+  "drc": {
+    "violations": 0,
+    "unconnected": 0,
+    "ordinary_edge_rule_negative_control_passed": true,
+    "excluded_violations": 0
+  }
+}

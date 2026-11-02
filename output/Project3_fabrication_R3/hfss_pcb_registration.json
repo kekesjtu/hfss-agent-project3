@@ -1,0 +1,9 @@
+{
+  "screened_model_run": "output/Project3_fabrication_R3/HFSS_full_SMA",
+  "model_full_rf_copper_mm2": 618.6515647068968,
+  "native_rf_copper_mm2": 618.6515641200002,
+  "symmetric_difference_mm2": 9.044199905689247e-05,
+  "coordinate_tolerance_mm": 2e-06,
+  "passes": true,
+  "scope": "Nominal RF top copper only, including antenna, matching section and connector signal land. Not the SMA body, ground stack or solver accuracy."
+}

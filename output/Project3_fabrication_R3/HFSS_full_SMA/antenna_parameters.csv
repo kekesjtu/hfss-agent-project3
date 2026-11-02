@@ -1,0 +1,2 @@
+Freq [GHz];AcceptedPower (Real);AcceptedPower (Imag);IncidentPower (Real);IncidentPower (Imag);PeakDirectivity (Real);PeakDirectivity (Imag);PeakGain (Real);PeakGain (Imag);PeakRealizedGain (Real);PeakRealizedGain (Imag);RadiatedPower (Real);RadiatedPower (Imag);RadiationEfficiency (Real);RadiationEfficiency (Imag);TotalEfficiency (Real);TotalEfficiency (Imag)
+5.8;0.00859017348543834;0.0;0.00928748088442076;0.0;8.67425514867267;0.0;0.589303879560446;0.0;0.545058732724575;0.0;0.00058359161383911;0.0;0.0679371161511915;0.0;0.0628363730813221;0.0

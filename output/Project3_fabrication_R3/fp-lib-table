@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Project3_RF")(type "KiCad")(uri "${KIPRJMOD}/Project3_RF.pretty")(options "")(descr "Course array and datasheet-derived SMA"))
+)

@@ -1,0 +1,6 @@
+(version 1)
+(rule "Ordinary copper must remain 0.5 mm from every board edge"
+  (constraint edge_clearance (min 0.5mm)))
+(rule "J1 datasheet end-launch lands only; intentional copper to routed edge"
+  (condition "(A.Type == 'Pad' && A.memberOfFootprint('J1')) || (B.Type == 'Pad' && B.memberOfFootprint('J1'))")
+  (constraint edge_clearance (min -0.05mm)))
